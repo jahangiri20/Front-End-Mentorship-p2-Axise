@@ -1,0 +1,62 @@
+.main__items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    min-height: 80vh;
+    margin-top: 6rem;
+    font-size: 2rem;
+    font-weight: 40vh;   
+}
+.main__items :hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.main__item{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+    
+} 
+  
+.main__item i{
+
+    padding: 1.5rem 1.4rem;
+    border-radius: 1.5rem;
+    align-self: center;
+    
+    
+
+}
+.main__item i:hover{
+     background-color: transparent;
+     border: 0.2rem solid var(--blue_color);
+}
+.main__item--title{
+     line-height: 4rem;
+     padding-top: 2rem;
+}
+.main__item p{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+.wallet {
+    background-color: var(--blue_color);
+}
+.window{
+    background-color: var(--green_color);
+}
+.photo{
+    background-color: var(--secondry_color)
+}
+.book {
+    background-color: #df4949
+}
+    
+   
+    
+   

@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px solid var(--primary_color);
+    padding-top: inherit;
+    line-height: 3rem;
+
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #14141F;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.nav__navbar{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;  
+}
+.nav__navbar ul{
+    list-style-type: none;
+    padding-top: 1.7rem;
+}
+.nav__navbar ul li{
+     display: inline;
+}
+.nav__navbar ul li a{   
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;       
+}
+.nav__search{  
+   padding-top: 1.8rem;   
+}
+.nav__wallet{
+    margin-top: 1rem;
+    font-size: 1rem ;   
+}
+.nav__wallet i{
+    padding-right: 1rem; 
+     
+}
+.nav__nl img{
+  background-color: var(--primary_color) ;  
+  padding: 1rem;   
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+}
