@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;  
-    min-height: 90vh; 
+    
 }
 .popular__item{
     height: 376px;
@@ -55,12 +55,13 @@
     justify-content:flex-start;
     padding-left: 1rem;
     position: relative;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
-.popular__bottom--image{
-    height: 63px;
-    width: 63px;
+.popular__bottom--image img{
+    height: 70px;
+    width: 70px;
     border-radius: 21px;
+    position: relative;
 }
 .popular__bottom--text{
     font-size: 2rem;
@@ -73,4 +74,9 @@
 }
 .popular__heart.heart{
     position: absolute; 
+}
+.check.small{
+    position: absolute;
+    color: red;
+    bottom: 3px;
 }

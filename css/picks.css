@@ -1,0 +1,59 @@
+.picks__button{
+    display: flex;
+    justify-content: flex-start; 
+    margin: 3rem;  
+}
+.picks__button--left{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.picks__button--right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.picks__items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.picks__item{
+    display: flex;
+    justify-content: center;
+
+}
+
+.view{
+    position: absolute;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    right: 10px;
+    margin-top: 1rem;
+}
+.view i{
+    padding-right: 0.2rem;
+    
+}
+.heart.heart2{
+    right: 10px;
+    top: 5px;
+    
+}
+.live__item--text.right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.button__loadMore{
+    padding: 3rem;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -22,6 +22,7 @@
 .nav__navbar ul{
     list-style-type: none;
     padding-top: 1.7rem;
+    
 }
 .nav__navbar ul li{
      display: inline;
@@ -32,6 +33,8 @@
     padding: 14px 16px;
     text-decoration: none;       
 }
+
+ 
 .nav__search{  
    padding-top: 1.8rem;   
 }

@@ -5,13 +5,16 @@
     flex-direction: row;
     align-items: center;
     min-height: 80vh;
-    margin-top: 6rem;
+    margin-top: 8rem;
     font-size: 2rem;
     font-weight: 40vh;   
+    
 }
+
 .main__items :hover{
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    box-shadow: rgba(85, 85, 85, 0.767) 0px 10px 50px;
 }
+
 .main__item{
     display: flex;
     align-items: center;
@@ -20,6 +23,7 @@
     flex-direction: column;
     text-align: center;
     padding: 2rem 0rem 2rem 0rem;
+
     
 } 
   
