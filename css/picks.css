@@ -1,3 +1,21 @@
+.picks__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    margi
+}
+.picks__title--left{
+    font-size: 3rem;
+    padding-left:3rem
+    
+}
+.picks__title--right a{
+    font-size: 1.5rem;
+    color: white;
+    padding-right: 3rem;
+    text-decoration: underline var(--secondry_color) 3px;
+
+}
 .picks__button{
     display: flex;
     justify-content: flex-start; 
