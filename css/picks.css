@@ -42,21 +42,10 @@
     
     
 }
-.picks__item{
+.picks__item.anim{
     display: flex;
     justify-content: center;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-    
-
 }
-
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
-
 .view{
     position: absolute;
     font-size: 1.5rem;
