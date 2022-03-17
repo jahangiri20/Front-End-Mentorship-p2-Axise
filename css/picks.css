@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
-    margi
+    
 }
 .picks__title--left{
-    font-size: 3rem;
+    font-size: 4rem;
     padding-left:3rem
     
 }
 .picks__title--right a{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     padding-right: 3rem;
     text-decoration: underline var(--secondry_color) 3px;
@@ -37,14 +37,25 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+   
+
     
     
 }
 .picks__item{
     display: flex;
     justify-content: center;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    
 
 }
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 
 .view{
     position: absolute;

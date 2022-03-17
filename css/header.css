@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    border-bottom: 1px solid var(--primary_color);
-    padding-top: inherit;
+    border-bottom: 1px solid var(--primary_color) ;
+    padding-top: 1rem;
     line-height: 3rem;
 
     position: fixed;
     top: 0;
     z-index: 99;
     background-color: #14141F;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     width: 100%;
 }
 
@@ -39,8 +39,8 @@
    padding-top: 1.8rem;   
 }
 .nav__wallet{
-    margin-top: 1rem;
-    font-size: 1rem ;   
+    font-size: 1rem ;  
+    padding-top: 0.5rem; 
 }
 .nav__wallet i{
     padding-right: 1rem; 
@@ -51,4 +51,6 @@
   padding: 1rem;   
   margin-top: 1rem;
   border-radius: 1.5rem;
+  width: 4rem;
+  
 }

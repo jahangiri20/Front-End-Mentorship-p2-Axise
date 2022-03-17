@@ -4,12 +4,15 @@
     flex-direction: row;
     justify-content: space-between;
     line-height: 9rem;
-    font-size: 3rem;
+    font-size: 4rem;
     padding-left: 2rem;
 }
 .title__right{
-    font-size: 1.5rem;
-    padding-right: 2rem;
+    font-size: 2rem;
+    color: white;
+    padding-right: 3rem;
+    text-decoration: underline var(--secondry_color) 3px;
+
 }
 .popular__items{
     display: flex;
@@ -80,9 +83,11 @@
 }
 .check.small{
     position: absolute;
-   
     padding: 0.3rem;
-    right: 2px;
+    
+    
+    top: 0.1rem;
+    
    
 }
     
