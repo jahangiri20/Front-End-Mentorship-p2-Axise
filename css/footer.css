@@ -9,20 +9,16 @@
     flex-direction: row;
     justify-content: space-around;
     line-height: 4rem;
-    
-    
+   
 }
 .footer__item{
     display: flex;
     flex-direction: column;
-   
-  
+ 
 }
 .footer__link{
     display: flex;
     flex-direction: column;
-   
-    
    
 }
 .footer__link a{
