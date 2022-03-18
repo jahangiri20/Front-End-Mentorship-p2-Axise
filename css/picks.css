@@ -85,6 +85,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    align-self: normal;
     
 }
 .button__loadMore{

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    border-bottom: 1px solid var(--primary_color) ;
+    border-bottom: 2px solid var(--primary_color) ;
     padding-top: 1rem;
     line-height: 3rem;
 
@@ -12,6 +12,10 @@
     background-color: #14141F;
     margin-bottom: 4rem;
     width: 100%;
+    
+}
+.navbar:hover{
+    
 }
 
 .nav__navbar{
