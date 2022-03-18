@@ -69,8 +69,18 @@
 .heart.heart2{
     right: 10px;
     top: 5px;
+  
+}
+
+.heart i{
+    color: white;
     
 }
+.heart i:hover{
+    color:red;
+    transform: scale(1.2);
+}
+
 .live__item--text.right{
     display: flex;
     justify-content: flex-start;
