@@ -55,8 +55,11 @@ button {
     
 }
 .btn:hover{
-    background-color:var(--secondry_color);
-    border-color: white
+    
+    border-color: var(--secondry_color);
+    background-color: var(--primary_color) ;
+    
+
 }
 
 p{

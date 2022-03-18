@@ -41,7 +41,7 @@
    
 }
 .sell__image:hover{
-    box-shadow: var(--blue_color) 0px 0px 0px 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0.9) 0px 0px 0px 1px;
     transform: scale(1.2);
 }
 .seller__text{
