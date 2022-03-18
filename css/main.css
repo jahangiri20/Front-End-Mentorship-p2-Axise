@@ -19,11 +19,11 @@
 .main__item{
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     justify-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 2rem;
 
     
 } 
@@ -40,14 +40,16 @@
 .main__item i:hover{
      background-color: transparent;
      border: 0.2rem solid var(--blue_color);
+     
 }
 .main__item--title{
      line-height: 4rem;
      padding-top: 2rem;
 }
-.main__item p{
+.parag{
     padding-top: 2rem;
     font-size: 1.3rem;
+   
 }
 .wallet {
     background-color: var(--blue_color);
