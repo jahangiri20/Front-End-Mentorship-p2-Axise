@@ -37,12 +37,21 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-   
-
-    
-    
+     
 }
-.picks__item.anim{
+
+.live__item.pick{
+    
+    
+
+}
+.live__item.pick:hover{
+    transform: translateY(-1rem);
+    
+
+}
+
+.live__item.anim{
     display: flex;
     justify-content: center;
 }
