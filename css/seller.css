@@ -41,12 +41,16 @@
    
 }
 .sell__image:hover{
-    box-shadow: var(--blue_color) 0px 0px 0px 3px;
+    box-shadow: var(--blue_color) 0px 0px 0px 2px;
+    transform: scale(1.2);
 }
 .seller__text{
     padding-top: 3rem;
     padding-left: 2rem;
     font-weight: 100px;
+}
+.seller__text:hover{
+    transform: scale(1.5);
 }
 .seller__text span{
     color: var(--grayLight_color);
@@ -62,5 +66,9 @@
     
     right: 2px;
     top: 78px;
+}
+.check:hover{
+    box-shadow: white 0px 0px 0px 2px;
+    
 }
     

@@ -8,10 +8,11 @@
     margin-top: 8rem;
     font-size: 2rem;
     font-weight: 40vh;   
+    margin-right: 4rem;
     
 }
 
-.main__items :hover{
+.main__item:hover{
     box-shadow: rgba(85, 85, 85, 0.767) 0px 10px 50px;
 }
 
