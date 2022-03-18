@@ -3,6 +3,8 @@
     padding-top: 8rem;
     padding-bottom: 8rem;
     margin-top: 10rem;
+    
+    box-shadow: var(--primary_color) 2rem 2rem 4rem 2rem;
 }
 .footer__items{
     display: flex;
