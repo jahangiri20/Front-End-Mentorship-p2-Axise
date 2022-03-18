@@ -21,7 +21,10 @@
 .nav__navbar{
    display: flex;
    justify-content: space-between;
-   flex-direction: row;  
+   flex-direction: row;
+  
+   
+  
 }
 .nav__navbar ul{
     list-style-type: none;
@@ -30,13 +33,15 @@
 }
 .nav__navbar ul li{
      display: inline;
+     padding-right: 1.8rem;
+     
 }
 .nav__navbar ul li a{   
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;       
 }
+
 
  
 .nav__search{  
@@ -57,4 +62,7 @@
   border-radius: 1.5rem;
   width: 4rem;
   
+}
+.sun{
+    
 }

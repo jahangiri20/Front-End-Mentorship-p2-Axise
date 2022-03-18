@@ -26,6 +26,9 @@
     color: var(--grayLight_color);
     font-size: 1.6rem;
 }
+.footer__link :hover{
+    color: var(--secondry_color);
+}
 .footer__title{
     font-size: 2rem;
     padding-bottom: 2rem;
@@ -60,4 +63,8 @@
     background-color: var(--primary_color);
     color: white;
     margin: 0.4rem;
+}
+.footer__icons--link i:hover{
+    background-color: var(--blue_color);
+    transform: scale(1.2);
 }
