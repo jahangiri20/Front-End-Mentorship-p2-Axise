@@ -6,7 +6,7 @@
 }
 .picks__title--left{
     font-size: 4rem;
-    padding-left:3rem
+    padding-left:5rem
     
 }
 .picks__title--right a{
@@ -22,13 +22,13 @@
     margin: 3rem;  
 }
 .picks__button--left{
-    width: 60%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .picks__button--right{
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: flex-end;
     
