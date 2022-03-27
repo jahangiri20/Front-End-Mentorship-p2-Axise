@@ -35,7 +35,7 @@
 }
 .nav__navbar ul li{
      display: inline;
-     padding-right: 1.8rem;
+     padding-right: 1.5rem;
      
 }
 .nav__navbar ul li a{   
@@ -47,24 +47,39 @@
 
  
 .nav__search{  
-   padding-top: 1.8rem;   
+   padding-top: 1.8rem; 
+  
 }
 .nav__wallet{
     font-size: 1rem ;  
     padding-top: 0.5rem; 
+  
 }
 .nav__wallet i{
     padding-right: 1rem; 
      
 }
+.nav__nl{
+    
+}
 .nav__nl img{
   background-color: var(--primary_color) ;  
-  padding: 1rem;   
+  padding: 0.5rem;   
   margin-top: 1rem;
-  border-radius: 1.5rem;
-  width: 4rem;
+  border-radius: 1rem;
+  width: 3rem;
+
   
 }
-.sun{
-    
+
+.signin{
+  background-color: var(--primary_color) ;  
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  
+  
+  
 }

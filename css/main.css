@@ -13,7 +13,8 @@
 }
 
 .main__item:hover{
-    box-shadow: rgba(85, 85, 85, 0.767) 0px 10px 50px;
+    
+    box-shadow: var(--primary_color) 0px 2px 8px 0px;
 }
 
 .main__item{
@@ -37,11 +38,7 @@
     
 
 }
-.main__item i:hover{
-     background-color: transparent;
-     border: solid var(--blue_color);
-     
-}
+
 .main__item--title{
      line-height: 4rem;
      padding-top: 2rem;
