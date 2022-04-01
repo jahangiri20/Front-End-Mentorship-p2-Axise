@@ -73,6 +73,7 @@
     flex-direction: column;
     background-color: var(--primary_color);
     margin: 0rem; 
+    object-fit: cover;
 }
 .popular__item--photo{
     display: flex;
