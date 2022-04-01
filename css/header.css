@@ -87,9 +87,10 @@
     position: absolute;
     top: 40px;
     right: 0;
+    
     width: 14rem;
     visibility: hidden;
-    transition: all 0.7s ease;	
+    transition: all 0.3s ease;	
     border-radius: 0.5rem;  
     
 }
