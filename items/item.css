@@ -1,0 +1,253 @@
+.header__itemDetails1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("bg.jpg");
+   
+
+}
+.navbar__item{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+  font-size: 3rem;
+  
+   
+}
+   
+.header__item{
+ display: flex;
+ flex-direction: column;
+ justify-content:space-around;
+ 
+ 
+    
+}
+.header__item--title{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    margin: 3rem;
+}
+.header__item--path{
+    display: flex;
+    justify-content: center;
+    margin: 6rem;
+
+}
+
+.item__details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+   
+    
+
+}
+.item__details--left{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+    
+   
+    
+
+}
+.item__details--img{
+   padding: 3rem 0rem 1rem 2rem;
+   
+  
+   
+}
+.item__details--right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 2rem;
+   
+   
+    
+
+
+}
+.item__details--title{
+    font-size: 3rem;
+    padding: 2rem;
+    
+}
+.item__see{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.item__see--view{
+    display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-left: 2rem;
+    
+   
+}
+
+.eye , .heart{
+    padding: 0.3rem 0.1rem 0.3rem 0.1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+     
+    background-color: #030303;
+
+}
+.eye span , .heart span{
+    padding: 0.4rem;
+   
+   
+    background-color: #030303;
+}
+.item__see--icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 2rem;
+    background-color: blueviolet;
+   
+   
+}
+.papar , .more{
+    padding: 1rem;
+    
+    background-color: var(--primary_color);
+    border-radius: 1.8rem;
+
+}
+.icon{
+   
+}
+
+.items__by{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+}
+.item__by--left , .item__by--right{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   
+   font-size: 1.5rem;
+   background-color: var(--primary_color);
+   padding: 1rem;
+   border-radius: 2rem;
+   
+}
+.img , .create {
+    display: flex;
+    flex-direction: row;
+    
+    
+  
+}
+.img img{
+    border-radius: 1.5rem;
+    width: 50%;
+    height: auto;
+    
+}
+
+
+.more__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 0rem 3rem 0rem 3rem;
+    
+}
+
+.items__by--right{
+
+}
+.item__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card__current , .card__count{
+    background-color: var(--primary_color);
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+.card__current b , .card__count b{
+    padding-left: 2rem;
+}
+.card__current span , .card__count span{
+    color: white;
+}
+
+.place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+} 
+.place .btn{
+    
+    padding: 1rem 24rem 1rem 24rem ;
+    border-color: white;
+
+}
+
+.tabHistory{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin :3rem;
+   
+    
+
+}
+.history1,.history2,.history3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+   
+    
+    
+   
+    
+}
+.photo__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1.7rem;
+   
+   
+    
+
+}
+.photo__text img{
+    width: 20%;
+    height: auto;
+    border-radius: 3rem;
+    padding: 1rem;
+    
+}
+.text{
+  padding-left: 2rem;
+  
+    
+}
+.text , .price {
+    padding-top: 1.5rem;
+    
+    
+}

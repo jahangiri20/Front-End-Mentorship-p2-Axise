@@ -1,9 +1,12 @@
 .hero{
-  width: 100%; 
-  height: auto; 
+  
  margin-top: 9rem;
+ display: flex;
+ flex-direction: row;
+ background-color: burlywood 
 }
 .hero__left{
+    
     width: 50%;
     height: auto;
     display: flex;
@@ -11,7 +14,8 @@
     align-content: center;
     justify-content: space-around;
     line-height: 6rem;
-    margin-left: 4.5rem;
+    padding-left: 4.5rem;
+    background-color: blueviolet;
 }
 .hero__title h1{
     font-size: 5rem;
@@ -24,10 +28,11 @@
 }
 
 .hero__right{
+  
     display: flex;
     justify-content: center;
-    width: 50%;
-    height: auto;
+    align-items: center;
+    background-color: pink;
     position: relative;
     z-index: 0;
 }
@@ -39,11 +44,11 @@
 }
 .hero__image2{
   position:absolute;
-  width: auto;
-  height: auto;
+  left: 0.1rem;
+  
   z-index:3;
-  bottom: 5px;
-  right: -250px;
+  top: 26rem;
+ 
   animation-name: shape;
   animation-duration: 8s;
   animation-iteration-count: 200;
@@ -53,19 +58,18 @@
 }
 .hero__image1{
     width: 200px;
-    height: auto;
-    bottom: -50px;
-    left: 900px;
+    left: 18rem;
+    bottom: 5rem;
+    
+    
     position: absolute;
     z-index: 2;
 }
 .hero__shape{
-    width: 600px;
-    height: auto;
-    left: 700px;
-    bottom: -100px;
+  
+    background-color: aqua;
+    left: 2rem;
     z-index: 1;
-    position: absolute;
     box-shadow: rgba(149, 80, 229, 0.15);
     transform: rotate(142.57deg);
     animation-name: shape;

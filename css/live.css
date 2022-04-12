@@ -4,9 +4,11 @@
     
 }
 .live__title{
+    display: flex;
     font-size: 4rem;
     font-weight: 200rem;
     padding-left: 2rem;
+    
 }
 .live__items{
     display: flex;
@@ -160,5 +162,5 @@
 
 
 .owl-carousel .owl-item img {
-    width: auto;
+    
 }
