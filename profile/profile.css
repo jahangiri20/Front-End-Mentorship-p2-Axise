@@ -141,6 +141,17 @@ img{
     background-color: transparent;
     position: sticky;   
 }
+ i{
+     color: white;
+     padding-right: 0.8rem;
+ }
+ i:hover{
+    color: var(--blue_color);
+ }
+ a{
+     text-decoration: none;
+     color: white;
+ }
 
 
 
