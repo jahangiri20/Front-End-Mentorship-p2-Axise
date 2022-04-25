@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    border-bottom: 2px solid var(--primary_color) ;
+    border-bottom: 0.2rem solid var(--primary_color) ;
     padding-top: 1rem;
     line-height: 3rem;
 
