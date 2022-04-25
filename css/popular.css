@@ -85,7 +85,7 @@
     
 }
 .popular__item--photo :hover{
-    transform: scale(1.1)
+    border: white 0.2rem solid;
     
 
 }
@@ -124,7 +124,7 @@
 
 .popular__bottom--text{
     font-size: 2rem;
-    padding: 1rem 1rem 1rem 2rem;
+    padding: 1rem 0rem 1rem 0rem;
     font-weight: 4rem;  
 }
 .popular__bottom--text span{
@@ -137,7 +137,9 @@
 }
 .check.small{
     position: absolute;
-    padding: 0.3rem;  
+    padding: 0.3rem; 
+    top: 0.1rem;
+    
     
     
      

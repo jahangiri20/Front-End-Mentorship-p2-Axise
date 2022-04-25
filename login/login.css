@@ -2,34 +2,48 @@
    
 }
 .login__main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: auto
     
-    align-content: center;
     
     
 }
 .login__left{
-    width: 60%;
-    height:600px;
+    display: grid;
+    grid-template-columns: auto;
+
+
     background-image: url(img/login.jpg);
 }
 .login__right{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    
+   
+    justify-content: stretch;
+
     align-items: center;
     background-color: #292f45;
-    color: white;
+    
+    font-size: 2rem;
    
     
 }
 .form{
+    display: grid;
+    grid-column: 2/7;
+   
+    justify-content: stretch;
     
-    padding-top: 4rem;
-    font-size: 1.1rem;
+    gap: 2rem;
+    align-items: center;
+    
+    
+    font-size: 1.5rem;
+   
+   
 }
 .title{
     text-align: center;
@@ -37,28 +51,38 @@
     padding: 1rem;
 }
 .email ,.pass{
-    padding: 0.5rem;
+    
+   
    
 }
 #email , #pass{
     background-color: #292f45;
-    padding: 0.5rem 12rem 0.5rem 0.5rem;
-    text-align: left;
-    border-radius: 00.3rem;
-    border : 0.1rem solid white;
+    display: grid;
+    grid-column: 2/7;
+    padding: 1rem 23.7rem 1rem 1rem;
+    border-radius: 0.5rem;
+    border : 0.1rem solid rgb(134, 134, 134);
     
 }
 .btn__sign{
     font-size: 1.2rem;
     background-color: #7367ef;
-    padding: 0.5rem 9.8rem 0.5rem 9.8rem;
-    cursor: auto;
+    font-size: 1.5rem;
+    padding : 1rem ;
+    
     color: white;
     border: none;
-    border-radius: 0.3rem;
-    margin: 2rem 0rem 2rem 0rem;
+    border-radius: 0.5rem;
+   
     outline: none ;
     cursor: pointer;
+
+
+}
+.btn__sign:hover{
+    background-color: var(--secondry_color);
+    border: 0.2rem solid red ;
+    
 
 }
 .login__line{
@@ -69,15 +93,30 @@
 }
 .create{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
-.create span{
-    list-style: none;
+.create > a{
+    
+    color:var(--secondry_color);
+    text-decoration: none;
+    
     
 }
 .hr{
     border: 2px solid red;
     width: 100px;
 
+}
+.icons a{
+    background-color: var(--secondry_color);
+    color:white;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+
+}
+.icons a:hover{
+    color: var(--blue_color);
+    background-color: transparent
 }

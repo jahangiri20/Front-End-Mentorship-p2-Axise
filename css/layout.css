@@ -54,6 +54,7 @@ button {
     transition: all 0.3s ease;
    -webkit-transition: all 0.3s ease;
     outline: none ;
+    box-sizing: border-box;
     
 }
 .btn:hover{
@@ -62,6 +63,17 @@ button {
     background-color: var(--primary_color) ;
     
 
+}
+.btn__profile{
+    border-color: white;
+    border-radius: 2.5rem;
+    
+}
+.btn__social{
+    background-color: var(--blue_color);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 0.7rem 3rem 0.7rem 3rem  ;
 }
 
 p{
