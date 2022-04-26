@@ -77,7 +77,11 @@ button {
     
 }
 .btn__social:hover{
-    
+  
+}
+.tests{
+    background-color: red;
+    background-color: solid 1rem linear-gradient( to right, rgba(50, 100, 245, 0.61) 2%, rgba(114, 2, 187, 0.6) 82% );
 }
 
 p{
