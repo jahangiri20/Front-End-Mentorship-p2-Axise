@@ -28,9 +28,9 @@
     color: var(--grayLight_color);
     font-size: 1.6rem;
 }
-.footer__link a :hover{
-    color: var(--secondry_color);
-    border-bottom: 0.1rem solid var(--blue_color);
+.footer__link a:hover{
+    color: var(--blue_color);
+    border-bottom: 0.1rem solid var(--secondry_color);
 }
 .footer__title{
     font-size: 2rem;
