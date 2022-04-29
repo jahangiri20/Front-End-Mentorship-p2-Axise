@@ -216,10 +216,10 @@ input[type=file] {
 }
 
 .dropzone .dz-message .dz-button{
-    border: solid 0.3rem var(--secondry_color);
+    border: solid 0.2rem var(--secondry_color);
     background-color: var(--primary_color);
-    border-radius: 1rem;
-    padding: 1rem 3rem;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
     
    
 }
