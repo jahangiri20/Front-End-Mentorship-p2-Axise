@@ -69,6 +69,9 @@ button {
     border-radius: 2.5rem;
     
 }
+.btn__profile:hover{
+    background-color: #14141F;
+}
 .btn__social{
     background-color: var(--blue_color);
     font-size: 1.2rem;
@@ -80,7 +83,7 @@ button {
   
 }
 .tests{
-    background-color: red;
+    
     background-color: solid 1rem linear-gradient( to right, rgba(50, 100, 245, 0.61) 2%, rgba(114, 2, 187, 0.6) 82% );
 }
 
