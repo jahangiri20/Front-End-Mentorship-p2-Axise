@@ -212,7 +212,16 @@ input[type=file] {
   
 }
 .dz-message{
-    padding-top: 2rem;
+  
+}
+
+.dropzone .dz-message .dz-button{
+    border: solid 0.3rem var(--secondry_color);
+    background-color: var(--primary_color);
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+    
+   
 }
 
 
