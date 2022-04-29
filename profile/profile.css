@@ -79,16 +79,12 @@ img{
     padding-right: 5rem;
   
 }
-.uplpadImage{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.upload{
-    display: grid;
-    grid-template-columns: auto ;
-    align-items: center;     
-}
+
+
+
+
+      
+
 
 .covers{
     display: grid;
@@ -99,10 +95,12 @@ img{
     object-fit: cover; 
 }
 .covers:hover{
-    border-color: var(--secondry_color); 
+    border-color: var(--secondry_color);
+    
 }
 
-.covers > img{
+.covers img{
+    object-fit: cover; 
    
 }
 .cover__title{
@@ -154,6 +152,73 @@ img{
      text-decoration: none;
      color: white;
  }
+
+
+.uplpadImage {
+    position: relative;
+    z-index: 0;
+    width: 250px;
+    height: 150px;
+    
+    
+
+}
+form.dropzone .dz-clickable{
+ 
+}
+
+
+.uplpadImage .dropzone {
+    border-color: transparent;
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+   
+
+}
+
+.dropzone .dz-preview.dz-image-preview{
+  background-color: aquamarine;
+  position: absolute;
+  z-index: 9; 
+  width: 250px;
+    height: 150px;
+    border-radius: 2rem;
+    width: 250px;
+    height: 150px;
+    border-radius: 2rem;
+    bottom: -15px;
+    left: -20px;
+
+}
+.dropzone .dz-preview .dz-image{
+   
+    width: 250px;
+    height: 150px;
+    border-radius: 2rem;
+    overflow: hidden;
+      
+}
+
+.dz-error-mark{
+    
+    position: absolute;
+    z-index: 600;
+    
+}
+input[type=file] {
+    
+    width: 200px;
+    position: absolute;
+    z-index: 8;
+  
+}
+.dz-message{
+    padding-top: 2rem;
+}
+
 
 
 

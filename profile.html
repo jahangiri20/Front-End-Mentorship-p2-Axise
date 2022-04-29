@@ -9,10 +9,13 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
   />
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" /> 
     <link rel="stylesheet" href="./profile/profile.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
     
     <title>Profile</title>
 </head>
@@ -92,10 +95,7 @@
                               
                             </div>
                           </div>
-                        
-           
-                      
-                
+   
                 <div class="path__profile">
                     <div class="path__profile--title">Edit Profile</div>
                     <div class="path__profile--detailes">Home / Pages / Auther /  <b> Edit Profile </b> </div>
@@ -120,12 +120,18 @@
                     <div class="profile__section--right">
                         <div class="cover__title">Choise Your Cover Image</div>
                         <div class="coverImage">
-                            <div class="covers uplpadImage"><div class="upload"><button class="btn btn__profile btn_upload">Upload File</button></div></div>
+                            <div class="covers uplpadImage">
+                             
+                              <form action="/file-upload" class="dropzone" id="my-awesome-dropzone">
+                                <input type="file" name="file" />
+                              
+                              
+                             </form></div>
                             <div class="covers images "><img src="./profile/img/daniel-olah-pCcGpVsOHoo-unsplash.jpg" alt="img"></div> 
                             <div class="covers images"><img src="./profile/img/lucas-kapla-j4xZjuuj3ws-unsplash.jpg" alt=""></div>
                         </div>
                         
-                        <form action="" class="account">
+                        <form action="" class="account ">
                             <div class="account__info">
                                
                                 <div class="title">Account info</div> <br>
@@ -235,6 +241,25 @@
         </div>
       </div>
     </section>
-
+    <script>
+      Dropzone.options.myGreatDropzone = { // camelized version of the `id`
+    paramName: "file", // The name that will be used to transfer the file
+    maxFilesize: 2, // MB
+    accept: function(file, done) {
+      if (file.name == "justinbieber.jpg") {
+        done("Naha, you don't.");
+      }
+      else { done(); }
+    }
+  };
+      // Note that the name "myDropzone" is the camelized
+      // id of the form.
+      Dropzone.options.myDropzone = {
+        // Configuration options go here
+      };
+    </script>
+    
+    
+    
 </body>
 </html>

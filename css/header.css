@@ -5,14 +5,12 @@
     border-bottom: 0.2rem solid var(--primary_color) ;
     padding-top: 1rem;
     line-height: 3rem;
-
     position: fixed;
     top: 0;
     z-index: 99;
     background-color: #14141F;
     margin-bottom: 4rem;
-    width: 100%;
-  
+    width: 100%;  
 }
 
 .nav__navbar{
@@ -30,8 +28,7 @@
 .nav__navbar ul li{
      display: inline;
      padding-right: 1.5rem;   
-     position: relative; 
-     
+     position: relative;     
      
 } 
 .nav__navbar i{
@@ -51,12 +48,7 @@
     color: white;
     text-align: center;
    
-    display: block;  
-   
-    
-    
-
-      
+    display: block;       
 }
 
 .nav__navbar ul ul li{
