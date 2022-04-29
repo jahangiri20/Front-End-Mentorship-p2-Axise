@@ -41,7 +41,9 @@
      
 }
 .nav__navbar a :hover{
-    border-bottom: solid 0.2rem var(--secondry_color);  
+     color :var(--blue_color);  
+    
+   
 }
 
 .nav__down ul li a{   

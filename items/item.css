@@ -37,34 +37,43 @@
 }
 
 .item__details{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4rem;
     justify-content: space-around;
-    margin: 1rem;
+    justify-items: center;
+    
    
     
 
 }
 .item__details--left{
     
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    justify-items: center;
+    place-items: center;
+    
    
     
    
     
 
 }
-.item__details--img{
-   padding: 3rem 0rem 1rem 2rem;
+.item__details--img img{
+   
+   border-radius: 4rem;
+   width: 100%;
+  
+   
    
   
    
 }
 .item__details--right{
-   display: flex;
-   flex-direction: column;
+   display: grid;
+   grid-template-columns: auto;
    justify-content: space-between;
    gap: 2rem;
    
@@ -249,5 +258,18 @@
 .text , .price {
     padding-top: 1.5rem;
     
+    
+}
+.tablinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 2rem;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    border-bottom:solid 0.3rem var(--blue_color);
+    padding-left: 2rem;
     
 }
