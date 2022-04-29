@@ -61,8 +61,7 @@
 }
 img{
     border-radius: 2rem;
-    width: 100%;
-    object-fit: cover;  
+    
 }
 
 .profile__section--right{
@@ -80,12 +79,6 @@ img{
   
 }
 
-
-
-
-      
-
-
 .covers{
     display: grid;
     grid-template-columns: auto auto auto;  
@@ -101,6 +94,9 @@ img{
 
 .covers img{
     object-fit: cover; 
+    width: 250px;
+    height: 146px;
+    
    
 }
 .cover__title{
@@ -180,26 +176,25 @@ form.dropzone .dz-clickable{
 }
 
 .dropzone .dz-preview.dz-image-preview{
-  background-color: aquamarine;
-  position: absolute;
-  z-index: 9; 
-  width: 250px;
-    height: 150px;
-    border-radius: 2rem;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9; 
     width: 250px;
     height: 150px;
     border-radius: 2rem;
-    bottom: -15px;
-    left: -20px;
+    bottom: -19px;
+    left: -18px;
 
 }
 .dropzone .dz-preview .dz-image{
    
-    width: 250px;
-    height: 150px;
+    width: 246px;
+    height: 144px;
     border-radius: 2rem;
     overflow: hidden;
       
+}
+.dz-image:hover{
 }
 
 .dz-error-mark{
