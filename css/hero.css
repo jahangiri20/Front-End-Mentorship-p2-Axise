@@ -1,6 +1,6 @@
 .hero{
   
- margin-top: 9rem;
+ margin-top: 2rem;
  display: grid;
  grid-template-columns: auto 1fr 1fr;
  
@@ -65,7 +65,6 @@
 }
 .hero__title h1{
     font-size: 5rem;
-    
     margin-top: 12rem;
 }
 .hero__title span{
@@ -79,9 +78,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
     position: relative;
     z-index: 0;
+    padding-top: 8rem;
 }
 .button__hero{
     margin-left: 54px;

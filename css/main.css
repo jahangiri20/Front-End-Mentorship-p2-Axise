@@ -1,33 +1,31 @@
 .main__items{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4 , 1fr);
     justify-content: center;
     align-items: center;
     min-height: 80vh;
     margin-top: 8rem;
     font-size: 2rem;
-    font-weight: 40vh;   
+    line-height: 2rem; 
     margin-right: 4rem;
     
-}
-
-.main__item:hover{
-    
-    box-shadow: var(--primary_color) 0px 2px 8px 0px;
 }
 
 .main__item{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     justify-items: center;
     flex-direction: column;
     text-align: center;
     padding: 2rem;
-
-    
+    cursor: pointer;   
 } 
+.main__item:hover{
+    
+    
+}
   
 .main__item i{
 
@@ -36,6 +34,11 @@
     align-self: center;
     
     
+
+}
+.main__item i:hover{
+   
+    box-shadow: rgba(204, 14, 163, 0.25) 0px 2px 34px, rgba(192, 31, 111, 0.25) 0px 4px 66px, rgba(247, 9, 195, 0.25) 0px 16px 90px;
 
 }
 

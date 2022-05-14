@@ -45,7 +45,7 @@
     padding: 1.8rem 3rem 1.8rem 2rem;
     border-radius: 10px 0px 0px 10px;
     background-color: transparent;
-    border: 1px solid var(--primary_color);
+    border: 0.1rem solid var(--primary_color);
 }
 .footer__email i{
     background-color: var(--blue_color);

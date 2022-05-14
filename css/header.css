@@ -27,8 +27,9 @@
 }
 .nav__navbar ul li{
      display: inline;
-     padding-right: 1.5rem;   
-     position: relative;     
+     padding-right: 1.8rem;   
+     position: relative;    
+     font-weight: 400; 
      
 } 
 .nav__navbar i{
