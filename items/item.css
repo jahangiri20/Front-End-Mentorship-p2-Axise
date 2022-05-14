@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-around;
     background-image: url("bg.jpg");
-   
 
 }
 .navbar__item{
@@ -12,15 +11,12 @@
   justify-content: space-around;
   font-size: 3rem;
   
-   
 }
    
 .header__item{
  display: flex;
  flex-direction: column;
  justify-content:space-around;
- 
- 
     
 }
 .header__item--title{
@@ -42,10 +38,6 @@
     gap: 4rem;
     justify-content: space-around;
     justify-items: center;
-    
-   
-    
-
 }
 .item__details--left{
     
