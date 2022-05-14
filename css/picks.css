@@ -5,8 +5,9 @@
     
 }
 .picks__title--left{
-    font-size: 4rem;
-    padding-left:5rem
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-left:6rem
     
 }
 .picks__title--right a{
@@ -14,7 +15,7 @@
     color: white;
     padding-right: 1.5rem;
     text-decoration: underline var(--secondry_color) 3px;
-    padding-right: 5rem;
+    padding-right: 6rem;
 
 }
 .picks__button{
@@ -36,24 +37,22 @@
 }
 .picks__items{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-    align-items: center;
-    
-    
-    
-     
+    grid-template-columns: repeat(4 , 1fr);
+
 }
-
 .live__item.pick{
-    
-    
+   
 
+}
+.pick__bottoms{
+    
+  
+    
 }
 .live__item.pick:hover{
-    transform: translateY(-1rem);
-    
-
+    transform: translateY(-1rem) ;
+    transition: all 5ms ease-in-out;
+ 
 }
 
 .live__item.anim{
