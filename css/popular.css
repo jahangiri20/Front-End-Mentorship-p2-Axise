@@ -80,15 +80,10 @@
 }
 .popular__item--photo{
     display: grid;
-    
-    grid-template-columns: repeat(6, 1fr);
-    
-    gap: 1rem;
-    
-    
-    
-
-    
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: auto auto;
+    gap: 0.7rem;
+ 
 }
 .popular__img:nth-child(1){
     grid-column: 1/4;
