@@ -17,6 +17,7 @@ body::-webkit-scrollbar {
 
 
 
+
 *,
 *::after,
 *::before {
@@ -43,7 +44,7 @@ body{
     --font_color : #ffff;
 
 }
-[data-item="dark"]{
+[data-theme="dark"]{
     --primary_color: #ebebf3;
     --grayLight_color : #ADADB0;
     --secondry_color: #9835FB;
@@ -79,25 +80,30 @@ button {
     font-family: inherit;
     color: #ffff;
     padding : 1.3rem 1.8rem ;
-    box-shadow: none;
+   
     font-size: 1.5rem;
     transition: all 0.3s ease;
    -webkit-transition: all 0.3s ease;
     outline: none ;
     box-sizing: border-box;
+    box-shadow: ;
     
 }
-.btn:hover{
+.btn:hover{   
     
     border-color: var(--secondry_color);
-    background-color: var(--primary_color) ;
-    
-
+    animation: pulsate 3s ease-in-out;
+}
+@keyframes pulsate {
+    0%{ 
+        box-shadow:
+        0 0 25px var(--secondry_color) ,
+        0 0 25px var(--blue_color);
+    }
 }
 .btn__profile{
     border-color: white;
-    border-radius: 2.5rem;
-    
+    border-radius: 2.5rem;   
 }
 .btn__profile:hover{
     background-color: #14141F;

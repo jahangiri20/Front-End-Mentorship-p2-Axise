@@ -54,36 +54,32 @@
     display: block;       
 }
 
+
 .nav__navbar ul ul li{
     display: block;
     background-image: linear-gradient(to right , var(--secondry_color) , var(--blue_color) , var(--secondry_color)) ;
     margin: 0.4rem;
-    border-radius: 0.5rem;
-    
-    
-    
+    border-radius: 0.5rem; 
 }
 .nav__navbar ul ul li :hover{
     padding-left: 2rem;
     color: white;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     font-weight: 800;
-   
     
-   
-    
-
 }
+
 .nav__navbar ul li a:hover > .icon__down {
     transform: rotate(-180deg) ; 
-    color: var(--secondry_color);  
+    transition: transform 0.8s;
+   
+    
 }
 .dropdown  {
     background-color: var(--primary_color);
     position: absolute;
     top: 40px;
     right: 0;
-    
     width: 14rem;
     visibility: hidden;
     transition: all 0.3s ease;	
@@ -92,10 +88,7 @@
 }
 
 .nav__down:hover > .dropdown {
-    visibility: visible;
-    
-    	
-    
+    visibility: visible;  
 }
 
 .dropdown li a:hover{
@@ -125,6 +118,7 @@
   margin-top: 1rem;
   border-radius: 1rem;
   width: 3rem;
+  cursor: pointer;
 
   
 }
@@ -137,7 +131,4 @@
   padding: 1rem;
   border-radius: 1rem;
  
-  
-  
-  
 }

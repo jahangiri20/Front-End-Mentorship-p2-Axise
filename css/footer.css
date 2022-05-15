@@ -1,21 +1,23 @@
 .footer{
     background-color: #0D0D12;
-    padding-top: 8rem;
+    padding-top: 6rem;
     padding-bottom: 8rem;
     margin-top: 10rem;
     
     box-shadow: var(--primary_color) 2rem 2rem 4rem 2rem;
 }
 .footer__items{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
     line-height: 4rem;
+    gap: 3rem;
    
 }
 .footer__item{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
  
 }
 .footer__link{
@@ -30,16 +32,16 @@
 }
 .footer__link a:hover{
     color: var(--blue_color);
-    border-bottom: 0.1rem solid var(--secondry_color);
+    transition: all 0.5s ease;
+    padding-left: 0.5rem;
+    font-weight: 400;
 }
 .footer__title{
     font-size: 2rem;
     padding-bottom: 2rem;
 }
-
 .footer__email{
    margin-bottom: 3rem;
- 
 }
 #email{
     padding: 1.8rem 3rem 1.8rem 2rem;

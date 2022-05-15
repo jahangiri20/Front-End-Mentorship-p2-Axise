@@ -13,3 +13,16 @@ let myDropzone = new Dropzone("#my-form");
 myDropzone.on("addedfile", file => {
   console.log(`File added: ${file.name}`);
 });
+
+  function darkMode() {
+  var element = document.documentElement.setAttribute('data-theme');
+  element.className = "dark-mode";
+
+ }
+
+  function lightMode() {
+  var element = document.documentElement; 
+  element.className = "light-mode";
+  
+}
+

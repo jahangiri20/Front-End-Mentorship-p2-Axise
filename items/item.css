@@ -34,13 +34,12 @@
 
 .item__details{
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 4rem;
+    grid-template-columns: 1fr 1.3fr;
+   
     justify-content: space-around;
     justify-items: center;
 }
-.item__details--left{
-    
+.item__details--left{  
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
@@ -58,10 +57,6 @@
    display: grid;
    grid-template-columns: auto;
    justify-content: space-between;
-   gap: 2rem;
-   
-   
-    
 
 
 }
@@ -80,7 +75,7 @@
     display:flex;
    flex-direction: row;
    justify-content: space-around;
-   margin-left: 2rem;
+   
  
 }
 .eye , .heart{

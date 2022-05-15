@@ -45,13 +45,8 @@
 }
 .vertical-social:hover{
   opacity: 100;
-  
 
- 
-  
 }
-
-
 .hero__left{ 
     
     display: flex;
@@ -59,9 +54,7 @@
     align-content: center;
     justify-content: space-around;
     line-height: 6rem;
-    margin-left: 6rem;
-   
-    
+    margin-left: 6rem;   
 }
 .hero__title h1{
     font-size: 5rem;
@@ -71,10 +64,7 @@
   
     color: var(--secondry_color);
 }
-
-
 .hero__right{
-  
     display: flex;
     justify-content: center;
     align-items: center;
