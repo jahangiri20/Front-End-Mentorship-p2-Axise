@@ -1,3 +1,4 @@
+
 .header__itemDetails1{
     display: flex;
     flex-direction: column;
@@ -34,21 +35,18 @@
 
 .item__details{
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
-   
-    justify-content: space-around;
-    justify-items: center;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 4rem;
+    margin: 4rem;
+ 
 }
 .item__details--left{  
     display: grid;
     grid-template-columns: auto;
-    justify-content: center;
-    justify-items: center;
-    place-items: center;
+
     
 }
-.item__details--img img{
-   
+.item__details--img img{ 
    border-radius: 4rem;
    width: 100%;
    
@@ -56,159 +54,143 @@
 .item__details--right{
    display: grid;
    grid-template-columns: auto;
-   justify-content: space-between;
+   gap: 6rem;
+ 
+ 
 
 
 }
 .item__details--title{
     font-size: 3rem;
-    padding: 2rem;
+    text-shadow: 1px 2px 2px var(--secondry_color);
+    
     
 }
 .item__see{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    cursor: pointer;
    
 }
 .item__see--view{
     display:flex;
-   flex-direction: row;
-   justify-content: space-around;
-   
- 
+    flex-direction: row;
+    gap: 1rem;
 }
 .eye , .heart{
-    padding: 0.3rem 0.1rem 0.3rem 0.1rem;
-    font-size: 1.2rem;
-    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
     border-radius: 1rem;   
     background-color: #030303;
+
 }
 .eye span , .heart span {
-    padding: 0.4rem;
-    background-color: #030303;
+    padding: 0.3rem;
+    
 }
 .item__see--icon{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-right: 2rem;
-    background-color: blueviolet;
+    justify-content: flex-end;
+    gap: 1rem;
+  
 }
 .papar , .more{
-    padding: 1rem;
-    
-    background-color: var(--primary_color);
-    border-radius: 1.8rem;
 
+    background-color: var(--primary_color);
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
 }
 .icon{
    
 }
 
 .items__by{
-   display:flex;
-   flex-direction: row;
-   justify-content: space-around;
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 4rem;
+   
    
 }
 .item__by--left , .item__by--right{
    display: flex;
    flex-direction: row;
-   justify-content: flex-start;
-
-   font-size: 1.5rem;
    background-color: var(--primary_color);
-   padding: 1rem;
    border-radius: 2rem;
+   align-items: center;
+ 
    
 }
-.img , .create {
-    display: flex;
-    flex-direction: row;
-}
-.img img{
-    border-radius: 1.5rem;
-    width: 50%;
+
+.image__by{
+    border-radius: 2rem;
+    width: 20%;
     height: auto;
+    padding: 0.5rem;
     
 }
-
-
+.create p{
+    font-size: 1.5rem;
+    
+}
 .more__text{
     display: flex;
+    justify-content: center;
+}
+.more__text p{
+   text-align: justify;
+}
+
+.item__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+.card__current , .card__count{
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 1rem;
-    padding: 0rem 3rem 0rem 3rem;
+    justify-content: space-between;
+    background-color: var(--primary_color);
+    padding: 1.5rem;
+    border-radius: 2rem;
     
 }
 
-.items__by--right{
-
-}
-.item__card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.card__current , .card__count{
-    background-color: var(--primary_color);
-    padding: 1rem;
-    border-radius: 2rem;
-    font-size: 1.5rem;
-}
-.card__current b , .card__count b{
-    padding-left: 2rem;
-}
-.card__current span , .card__count span{
-    color: white;
-}
 
 .place{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around; 
 } 
-.place .btn{
-    
-    padding: 1rem 24rem 1rem 24rem ;
+.place .btn{  
     border-color: white;
-
+    width: 100%;
+    
 }
 
 .tabHistory{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin :3rem;
+    display: grid;
+    grid-template-columns: 1fr;
    
-    
 
 }
 .history1,.history2,.history3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: 1px solid gray;
+    border-top: 0.1rem solid gray;
+    align-items: center;
    
-    
-    
-   
-    
 }
 .photo__text{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 1.7rem;
-   
-   
-    
-
+    align-items: center;
+ 
 }
 .photo__text img{
     width: 20%;
@@ -218,14 +200,12 @@
     
 }
 .text{
-  padding-left: 2rem;
-  
+ 
     
 }
 .text , .price {
-    padding-top: 1.5rem;
     
-    
+       
 }
 .tablinks{
     display: flex;
