@@ -1,60 +1,48 @@
 .login{
-   
+  
 }
+
 .login__main{
     display: grid;
     grid-template-columns: 4fr 3fr;
-    grid-template-rows: auto
-    
-    
-    
+    grid-template-rows: auto;
+ 
 }
 .login__left{
+    background-image: url(img/login.jpg);
     display: grid;
     grid-template-columns: auto;
-
-
-    background-image: url(img/login.jpg);
-}
-.login__right{
+    grid-template-rows: 65rem;
     
+}
+.login__right{    
     display: grid;
     grid-template-columns: repeat(7 , 1fr);
-    
-   
     justify-content: stretch;
-
     align-items: center;
-    background-color: #292f45;
-    
-    font-size: 2rem;
+    background-color: #292f45;  
+    font-size: 2rem; 
+    gap: 1rem; 
    
-    
 }
 .form{
     display: grid;
     grid-column: 2/7;
-   
     justify-content: stretch;
-    
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
-    
-    
     font-size: 1.5rem;
+    
    
    
 }
 .title{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
     padding: 1rem;
 }
-.email ,.pass{
-    
-   
-   
-}
+
 #email , #pass{
     background-color: #292f45;
     display: grid;
@@ -64,27 +52,19 @@
     border : 0.1rem solid rgb(134, 134, 134);
     
 }
-.btn__sign{
-    font-size: 1.2rem;
-    background-color: #7367ef;
-    font-size: 1.5rem;
-    padding : 1rem ;
-    
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-   
-    outline: none ;
-    cursor: pointer;
+.btn__login.btn{
+   border-radius: 0.5rem;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+
 
 
 }
-.btn__sign:hover{
+.btn__login.btn:active{
     background-color: var(--secondry_color);
-    border: 0.2rem solid red ;
-    
-
 }
+
+
 .login__line{
     display: flex;
     flex-direction: row;
@@ -103,20 +83,43 @@
     
     
 }
-.hr{
-    border: 2px solid red;
-    width: 100px;
 
+.login__line{
+    display: flex;
+    justify-content: space-between;
 }
-.icons a{
+.icons {
+    display: flex;
+    justify-content: center;
+  
+}
+.icons i{
     background-color: var(--secondry_color);
     color:white;
-    padding: 1rem;
-    font-size: 2rem;
+    padding: 1.2rem;
+    font-size: 2.2rem;
     border-radius: 0.5rem;
+    margin:0rem 0.5rem ;
 
+    
+    
 }
-.icons a:hover{
-    color: var(--blue_color);
-    background-color: transparent
+
+.icons i:hover{
+    color:#292f45;
+    
+    transition: all 6ms;
+}
+
+.goback {
+    padding: 3rem;
+    font-weight: 800;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+.goback a{
+    color: white;
+    text-decoration: none;
+
 }
