@@ -142,33 +142,70 @@
     border-color: white;
     width: 100%;   
 }
-.tab{
-    
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 15rem;
-    overflow: auto;
-   
-    padding-right: 2rem;
-    
-}
-::-webkit-scrollbar {
-    width: 0.4rem;
-  
-  }
-  ::-webkit-scrollbar-thumb {
-    background: var(--primary_color) 
-  }
-  
-.item_tabs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
-.tabHistory{
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.tab{
+   
+    
+ 
+ }
+.main{
+
     display: grid;
     grid-template-columns: 1fr; 
+    grid-template-rows: 22rem;
+    padding-right: 2rem;
+    overflow-y: scroll;
+    
+}
+.hidden{
+    display: none;
+}
+
+ .tab ul li {
+
+    display: inline-block;
+
+    font-size: 2rem;
+    
+    text-decoration: none;
+    
+    list-style: none;
+    padding: 2rem 1rem;
+    cursor: pointer;
+
+
+  }
+ 
+    
+    
+
+
+.tabHistory{
+    
+      
+      
+      
 }
 .history1,.history2,.history3{
     display: flex;
@@ -200,16 +237,9 @@
     
        
 }
-.tablinks{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-size: 2rem;
-}
-ul li{
-    list-style: none;
-    display: inline;
+
+
+.active{
+    color: var(--blue_color);
   
-    padding-left: 2rem;
-    
 }

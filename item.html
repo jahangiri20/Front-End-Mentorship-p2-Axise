@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link
     rel="stylesheet"
@@ -17,6 +17,9 @@
   
     <title>Item</title>
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon"/>
+    <script src="./js/jquery-1.9.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/app.js"></script>
 </head>
     <body>
         <section id="nav">
@@ -74,6 +77,7 @@
                                   <ul class="dropdown ">
                                     <li><a href="./profile.html">Profile</a></li>
                                     <li><a href="./item.html">Item</a></li>
+                                    <li><a href="./login/login.html">login</a></li>
               
                                   </ul>
                                 </li>
@@ -157,25 +161,23 @@
                     <div class="card__current"><span>Current Bid</span> <p> <b>4.89 ETH </b>=$12.246</p> </div>
                     <div class="card__count"><span>Countdown</span> <p> <b>4 : 19 : 39 : 48 </b></p> </div>
                 </div>
-                <div class="place"><button class="btn"><i class="fa fa-shopping-bag" aria-hidden="true"></i>  Place a bid</button></div>
-                
+                <div class="place"><button class="btn"><i class="fa fa-shopping-bag" aria-hidden="true"></i>  Place a bid</button>
+                </div>
+               
                 <div class="tab">
-                    <form action="">
-                     <div class="tablinks">
-                         <ul class="item_tabs">
-                             <li class="tab_title"> Bid History</li>
-                             <li class="tab__title">Info</li>
-                             <li class="tab__title">Provenance</li>
-                         </ul>
-
-                    </div>
-                    <div class="tabHistory">
+                     <ul>
+                         <li class="tab_title tablinks" onclick="openTab(event, '.tabHistory')" >Bid History</li>
+                         <li class="tab_title tablinks" onclick="openTab(event, '.info')">Info</li>
+                         <li class="tab_title tablinks" onclick="openTab(event, '.provenance')">Provenance</li>
+                    </ul>
+                    <div class="main">
+                    <div class="tabHistory tabcontent active">
                         <div class="history1">
                             <div class="photo__text">
                                 <img class="images" src="./assets/avt-7.jpg" alt="">
                                 <div class="text"><p><b>Mason Woodword </b>  place a bid<br>8 hours ago</p></div>
                             </div>
-                            <div class="price"><p> <b>4.89 ETH</b><br>=$12.249</p></div>
+                            <div class="price"><p><b>4.89 ETH</b><br>=$12.249</p></div>
                         </div>
                         <div class="history2">
                             <div class="photo__text">
@@ -213,14 +215,18 @@
                           <div class="price"><p> <b>4.89 ETH</b><br>=$12.249</p></div>
                       </div>
                         </div>
-                    </form>
+                        
+                    
+                   
+                    
+                    <div class="info tabcontent hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    <div class="provenance tabcontent hidden ">  </div>
                     </div>
-                    </div>
-
+                 </div>
                 </div>
-            </div>
         </div>
-        </div>
+        
+
     </section>
 
     <section>
@@ -281,6 +287,6 @@
     </section>
     
 
-  
+    
 </body>
 </html>
